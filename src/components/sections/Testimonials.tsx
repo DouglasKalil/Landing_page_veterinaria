@@ -13,9 +13,6 @@ export default function Testimonials() {
           <h2 className="mt-2 font-sans text-3xl font-bold text-primary-900 sm:text-4xl">
             O que dizem os clientes
           </h2>
-          <p className="mt-3 text-xs italic text-primary-700/70">
-            * Depoimentos ilustrativos de exemplo — substituir por avaliações reais de clientes.
-          </p>
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
