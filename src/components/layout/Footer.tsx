@@ -87,7 +87,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="text-primary-300 hover:text-white"
         >
-          @desenvolvido por Douglas Kalil
+          @desenvolvido por DK automações
         </a>
       </div>
     </footer>
