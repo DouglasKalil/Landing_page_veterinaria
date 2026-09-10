@@ -74,6 +74,18 @@ export default function Footer() {
 
       <div className="border-t border-primary-700 px-4 py-5 text-center text-xs text-primary-300 sm:px-6 lg:px-8">
         © {year} {siteConfig.professionalName} — {siteConfig.crmv}. Todos os direitos reservados.
+        <br />
+        <a
+          href={buildWhatsappLink(
+            "Olá, gostei do site, quero saber mais sobre.",
+            "5591985428369"
+          )}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary-300 hover:text-white"
+        >
+          @desenvolvido por Douglas Kalil
+        </a>
       </div>
     </footer>
   );

@@ -22,9 +22,9 @@ export const siteConfig = {
   ],
 };
 
-export function buildWhatsappLink(message: string) {
+export function buildWhatsappLink(message: string, phoneNumber: string = siteConfig.whatsappNumber) {
   const encoded = encodeURIComponent(message);
-  return `https://wa.me/${siteConfig.whatsappNumber}?text=${encoded}`;
+  return `https://wa.me/${phoneNumber}?text=${encoded}`;
 }
 
 export const defaultWhatsappMessage =
