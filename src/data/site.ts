@@ -8,8 +8,8 @@ export const siteConfig = {
   crmv: "CRMV-PA 5879", // TODO: substituir pelo número real do CRMV
   city: "Capitão Poço",
   state: "PA",
-  phoneDisplay: "(91) 8570-0829",
-  whatsappNumber: "559185700829",
+  phoneDisplay: "(91) 9 8570-0829",
+  whatsappNumber: "5591985700829",
   instagram: "@yamille.lourdes", // TODO: substituir pelo Instagram real
   email: "yamilledelourdes.clinicavet@gmail.com", // TODO: substituir pelo e-mail real
   address: "Tv Pedro Venâncio, número 151, Capitão Poço - PA, 68650-000", // TODO: endereço real
