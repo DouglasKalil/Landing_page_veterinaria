@@ -72,7 +72,10 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-primary-700 px-4 py-5 text-center text-xs text-primary-300 sm:px-6 lg:px-8">
+      <div
+        id="footer-bottom-bar"
+        className="border-t border-primary-700 px-4 py-5 text-center text-xs text-primary-300 sm:px-6 lg:px-8"
+      >
         © {year} {siteConfig.professionalName} — {siteConfig.crmv}. Todos os direitos reservados.
         <br />
         <a

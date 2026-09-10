@@ -7,12 +7,14 @@ import Home from "./pages/Home";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Footer />
-      <WhatsAppFloat />
+      <div className="relative">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+        <WhatsAppFloat />
+      </div>
     </BrowserRouter>
   );
 }
